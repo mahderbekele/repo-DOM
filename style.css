@@ -11,11 +11,11 @@ h1{
     height: 40vh;
 }
 .content{
-    margin-left: 5vw;
+    margin-left: 3vw;
 }
 #fruList{
     display: flex;
-    gap: 8vw;
+    gap: 12vw;
 }
 #stock{
     width: 10vw;
@@ -24,11 +24,35 @@ h1{
 }
 #vegList{
     display: flex;
-      gap: 8vw;
+      gap: 12vw;
 }
 li{
-    text-align: center;
+  margin-top: 5vh; 
 }
+
+
 #fruLiST p{
     margin-left: 8vw;
+}
+.top_buttons{
+    margin-top: 2vh;
+    display: flex;
+    margin-left: 60vw;
+    gap: 10vw;
+    border: none;
+    background-color: rgb(194, 194, 125);
+    padding:2vh
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.item{
+  background: #EAF6FF;
+  border-left: 8px solid #07c900;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 201, 167, 0.15);
+  margin-bottom: 40px;
+  align-items: center;
 }
